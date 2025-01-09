@@ -15,6 +15,7 @@ public class AuthorService {
     private final AuthorRepo authorRepo;
 
 
+
     //metodo per visualizzare tutti i BlogPost
     public List<Author> findAll() {
         return authorRepo.findAll();

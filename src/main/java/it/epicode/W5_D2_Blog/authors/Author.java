@@ -1,9 +1,11 @@
 package it.epicode.W5_D2_Blog.authors;
 
+import it.epicode.W5_D2_Blog.blogPosts.BlogPost;
 import jakarta.persistence.*;
 import lombok.Data;
 
 import java.time.LocalDate;
+import java.util.List;
 
 @Data
 @Entity
@@ -18,5 +20,6 @@ public class Author {
     @Column(name = "data_di_nascita")
     private LocalDate dataDiNascita;
     private String avatar;
+
 
 }
